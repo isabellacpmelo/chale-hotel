@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -85,4 +85,101 @@ a.reserva {
     color: #fff5b0;
     padding: 5px 10px;
     float: right;
+}
+
+/*  Barra de navegação vertical */
+
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+.depoimento {
+    width: 200px;
+    height: 164px;
+    float: right;
+}
+
+/* Área Conteudos*/
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(img/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
+}
+
+/* Formatações de textos */
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#lista li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#lista li a img{
+    float: left;
+    margin-right: 8px;
+}
+
+#lista li a p {
+    color: #000;
+    font-size: 0.8em;
+}
+
+#lista li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(img/ornamento.png) no-repeat center right;
+}
+
+#lista li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
